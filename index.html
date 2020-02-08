@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<script type="text/javascript" src="../js/main.js"></script>
+	    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        #wrapper {
+            min-height: 100%; 
+        }
+    </style>
+	
+	<title>Pàgina principal</title>
+</head>
+<body>
+	<header class="sticky-top">
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+	      	<a class="navbar-brand" href="#">VENDA DE PORTÀTILS </a>
+	      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	        	<span class="navbar-toggler-icon"></span>
+	      	</button>
+	      	<div class="collapse navbar-collapse" id="navbarNav">
+	        	<ul id=inicials class="navbar-nav">
+	        		<li class="nav-item active">
+	            		<a class="nav-link" href="#">Inici</a>
+			        </li>
+			        <li class="nav-item active">
+		            	<a class="nav-link" href="#productes">Productes</a>
+		            </li>
+		            <li class="nav-item active">
+		            	<a class="nav-link" href="#contacte">Contacta'ns</a>
+		            </li>		          	
+		        </ul>
+		        <ul id=finals class="navbar-nav align-items-center">
+		        	<li id="signin" class="nav-item active" style="height: max-content;">
+			           	<a class="nav-link" href="registre.html">REGISTRA'T</a>
+				    </li>
+				    <li class="nav-item active">
+			           	<a id="desconexio" class="nav-link" href="#"><br></a>
+				    </li>
+		        </ul>
+		    </div>
+		</nav>
+	</header>
+	<div id="total">
+		<div id="dreta2"></div>
+		<div id="central2">
+			<br>
+			<div id="inici">
+				<h2><b>INICI</b></h2><br>
+				<p>
+					<b>Aquesta pàgina et permet comprar ordinadors portàtils al millor preu. </b>
+					<br><br>
+					<b>Aquesta pàgina ha estat elaborada pel projecte final del curs de HTML, CSS i JavaScript de </b>
+					<a href="https://jediupc.com/" target="_blank" rel="noopener noreferrer"><b> JEDI.</b></a><br><br>
+					<b>A continuació podràs trobar informació sobre uns quants ordinadors per comprar. També trobaràs una funcionalitat per ajudar-te a decidir quin dels ordinadors és el més apropiat per tu a partir d'unes preguntes que hauràs de contestar.</b>
+					<br><br>
+				</p>
+			</div>
+			<br><br>
+			<div id="productes">
+				<h2 id="producte"><b>PRODUCTES</b></h2><br><br>
+				<div id="taula">
+					<table class="table table-striped">
+						<thead>
+					    	<tr class="link_taula">
+					      		<th scope="col">Ordinador</th>
+						      	<th scope="col">Processador</th>
+						      	<th scope="col">Memoria RAM</th>
+						      	<th scope="col">Display</th>
+						      	<th scope="col">Controlador gràfic</th>
+						      	<th scope="col">Preu</th>
+						    </tr>
+					  </thead>
+					  <tbody id="files">
+					    	<tr>
+					      		<th scope="row"><a style="color:black" href="https://www.pccomponentes.com/msi-gf63-thin-9sc-047xes-intel-corei7-9750h-16gb-512gb-ssd-gtx-1650-156" target="_blank" rel="noopener noreferrer"><b>MSI GF63 Thin 9SC-047XES</b></a></th>
+							    <td><b>Intel Core Coffeelake refresh i7-9750H+HM370</b></td>
+							    <td><b>16GB DDR4 2666MHz</b></td>
+							    <td><b>15.6" FHD (1920*1080)</b></td>
+							    <td><b>GTX 1650  MAX Q GDDR5 4GB</b></td>
+							    <td><b>1149€</b></td>
+						    </tr>
+						    <tr>
+						      	<th scope="row"><a style="color:black" href="https://www.pccomponentes.com/lenovo-ideapad-s145-15ast-amd-a9-9425-8gb-512gb-ssd-156" target="_blank" rel="noopener noreferrer"><b>Lenovo Ideapad S145-15AST</b></a></th>
+						      	<td><b>AMD A9-9425 (2C / 2T, 3.1 / 3.7GHz, 1MB L2)</b></td>
+						      	<td><b>8GB DIMM DDR4-2133</b></td>
+						      	<td><b>15.6" FHD (1920x1080) TN 220nits Anti-glare</b></td>
+						      	<td><b>AMD Radeon R5 Graphics</b></td>
+						      	<td><b>429€</b></td>
+						    </tr>
+						    <tr>
+						      	<th scope="row"><a style="color:black" href="https://www.pccomponentes.com/toshiba-satellite-pro-r40-d-111-intel-celeron-3865u-4gb-128gb-ssd-14" target="_blank" rel="noopener noreferrer"><b>Toshiba Satellite Pro R40-D-111</b></a></th>
+						      	<td><b>Intel Celeron 3865U (1.80GHz, 2MB)/b></td>
+						      	<td><b>4 GB DDR3L 2133 (4+0)</b></td>
+						      	<td><b>14,0"</b></td>
+						      	<td><b>Intel HD Graphics 610</b></td>
+						      	<td><b>299€</b></td>
+						    </tr>
+						    <tr>
+						      	<th scope="row"><a style="color:black" href="https://www.pccomponentes.com/hp-omen-15-dc1036ns-intel-core-i7-9750h-16gb-1tb-ssd-gtx-1660ti-156" target="_blank" rel="noopener noreferrer"><b>HP OMEN 15-DC1036NS</b></a></th>
+						      	<td><b>Intel Core i7-9750H </b></td>
+						      	<td><b>SDRAM DDR4-2666 de 16 GB (2 x 8 GB)</b></td>
+						      	<td><b>FHD IPS de 15,6"</b></td>
+						      	<td><b>NVIDIA GeForce GTX 1660 Ti</b></td>
+						      	<td><b>1499€</b></td>
+						    </tr>
+						    <tr>
+						      	<th scope="row"><a style="color:black" href="https://www.pccomponentes.com/acer-aspire-5-a515-54-735n-intel-core-i7-10510u-8gb-512gb-ssd-156" target="_blank" rel="noopener noreferrer"><b>Acer Aspire 5 A515-54-735N</b></a></th>
+						      	<td><b>Procesador Intel Core i7-10510U 1.8 GHz 8MB</b></td>
+						      	<td><b>8 GB DDR4 Memory</b></td>
+						      	<td><b>15.6" FHD Acer ComfyView</b></td>
+						      	<td><b>Intel UHD Graphics 620</b></td>
+						      	<td><b>599€</b></td>
+						    </tr>
+					  </tbody>
+					</table>
+				</div>
+			    <br><br>
+			    <p><b>En cas de no tenir clar quina és la millor opció per a tu, fes click al botó de Recomanació</b></p><br>
+			    <a id="recomanacio" class="nav-link" href="#recomanacio"><b>RECOMANACIÓ D'ORDINADOR</b></a>
+			</div>
+			<br><br><br>
+			<div id="contacte">
+				<h2 id="producte"><b>CONTACTE</b></h2><br><br>
+				<footer>
+					<address>
+					Pàgina creada per Jordi Donadeu Casassas, amb correu electrònic <b><i>jordi.donadeu@est.fib.upc.edu</i></b><br>
+					</address>
+				</footer>
+			</div>			
+		</div>
+		<div id="esquerra2"></div>
+	</div>
+</body>
+</html>
+
+

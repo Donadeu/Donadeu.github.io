@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script type="text/javascript" src="../js/recomanacio.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<title>Recomanació</title>
+</head>
+<body>
+	<div id ="total">
+		<div id="dreta3"></div>
+		<div id="central3">
+			<header>
+				<h1 style="text-align: center"><b>Recomanació de portàtil</b></h1>
+			</header><br>
+			<p ><b id="salutacio"></b></p>
+			<br>
+			<form action="/form.js">
+				<form id="pregunta1">
+					<h5><i>En quina mesura et preocupa el preu del portàtil?</i></h5><br>
+					<label><b>Molt (vull una opció molt econòmica): </b></label>
+					<input type="radio" name="preu" value="molt" checked><br>
+					<label><b>Ni molt, ni poc: </b></label>
+					<input type="radio" name="preu" value="normal"><br>
+					<label><b>Poc (estic disposat a gastar-me una quantitat raonable de diners): </b></label>
+					<input type="radio" name="preu" value="poc"><br>
+				</form><br><br>
+				<form id="pregunta2">
+					<h5><i>En quina mesura t'interessa un alt rendiment del portàtil?</i></h5><br>
+					<label><b>Molt (per exemple per poder jugar a videojocs): </b></label>
+					<input type="radio" name="rendiment" value="molt" checked><br>
+					<label><b>Ni molt, ni poc: </b></label>
+					<input type="radio" name="rendiment" value="normal"><br>
+					<label><b>Poc (l'utilitzaré generalment per prendre apunts a la universitat, per exemple): </b></label>
+					<input type="radio" name="rendiment" value="poc"><br>
+				</form><br><br>
+				<form id="pregunta3">
+					<h5><i>En quina mesura t'interessa un bon apartat gràfic?</i></h5><br>
+					<label><b>Molt: </b></label>
+					<input type="radio" name="grafic" value="molt" checked><br>
+					<label><b>Ni molt, ni poc: </b></label>
+					<input type="radio" name="grafic" value="normal"><br>
+					<label><b>Poc: </b></label>
+					<input type="radio" name="grafic" value="poc"><br>
+				</form>			
+				<br><input id ="botosubmit" type="submit" value="Submit">
+			</form>
+	
+			<br><br>
+			<p id="success"><br><br></p>
+			<a href="../index.html"> <nav><b>Tornar a la pàgina principal</b></nav> </a>
+			<br>
+			<footer>
+				 <font size="2">Si tens algun dubte amb les preguntes, envia un correu electrònic a jordi.donadeu@est.fib.upc.edu
+				 </font> 
+			</footer>
+		</div>	
+		<div id="esquerra3"></div>	
+	</div>
+</body>
+</html>

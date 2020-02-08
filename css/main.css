@@ -1,0 +1,191 @@
+#total{
+    display: grid;
+    float: none;     
+    position: static;     
+    overflow: visible;
+    grid-template-columns: 1fr 2fr 1fr ;
+    font-family: Arial;
+}
+
+
+#dreta {
+    background-color: turquoise;
+    border-right: .2em solid black;
+    width: 25vw;
+    height: 100vh;
+}
+
+#dreta3 {
+    background-color: rgb(89, 160, 226);
+    border-right: .2em solid black;
+    width: 25vw;
+    height: 100vh;
+}
+
+#dreta2 {
+    background-image: url("https://static5.depositphotos.com/1000128/531/i/450/depositphotos_5317355-stock-photo-set-of-white-laptops.jpg");
+    border-right: .2em solid black;
+    width: 24.8vw;
+    height: 150vh;
+}
+
+#esquerra {
+    background-color: turquoise;
+    border-left: .2em solid black;
+    width: 25vw;
+    height: 100vh;
+}
+#esquerra3 {
+    background-color: rgb(89, 160, 226);
+    border-left: .2em solid black;
+    width: 25vw;
+    height: 100vh;
+}
+
+#esquerra2 {
+    background-image: url("https://www.lainformacion.com/files/article_default_content/uploads/2018/12/27/5c24d344293b8.jpeg");
+    border-left: .2em solid black;
+    width: 25vw;
+    height: 150vh;
+}
+
+#central {
+    background-color: lightgrey ;
+    width: 50vw;
+    height: 100vh;
+    vertical-align: baseline;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+#central3 {
+    background-color: lightgrey ;
+    width: 50vw;
+    height: 100vh;
+    vertical-align: baseline;
+    text-align: left;
+    text-justify: inter-word;
+    padding: 20px;
+}
+
+
+#central2 {
+    padding: 1em;
+    background-color: lightblue ;
+    background-blend-mode: overlay;
+    font-size: 1em;
+    width: 49.3vw;
+    height: 150vh;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+#inici{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: lightgreen;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#recomanacio{
+    color: red;
+    border: .2em solid black;
+    background-color: lightyellow;
+}
+
+#inicials{
+    justify-content: flex-start;
+}
+
+#producte{
+    text-align: left;
+}
+
+#finals{
+    justify-content: flex-end;
+    font-size: large;
+}
+
+.navbar-expand-lg .navbar-collapse, .navbar-brand {
+    background-color: blue;
+}
+
+.bg-light {
+    background-color: turquoise;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    
+}
+
+.navbar-brand {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+#submit{
+    background-color: lightgrey;
+    font-size: 1em;
+}
+
+#botosubmit{
+    background-color: black;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: WHITE;
+}
+
+#carouselPcs{
+    margin: auto;
+}
+
+#barra{
+    display: flex;
+    justify-content: center;
+}
+
+#taula{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.table thead th {
+    vertical-align: baseline;
+    border-bottom: 2px solid #dee2e6;
+}
+
+#files{
+    background-color: lightgray;
+}
+
+.link_taula{
+    background-color: black; 
+    color:white;
+}
+
+@media (max-width: 600px){
+    #central2 {
+        display: none;
+    }
+}
+
